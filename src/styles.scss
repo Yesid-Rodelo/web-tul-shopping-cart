@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+*::before {
+  box-sizing: inherit;
+}
+
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #f9f9f9;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  button {
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.test {
+  font-size: 20px;
+}

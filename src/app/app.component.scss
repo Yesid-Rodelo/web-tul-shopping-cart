@@ -1,0 +1,19 @@
+header {
+  background-color: #39424e;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+
+  .logo {
+    color: white;
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}

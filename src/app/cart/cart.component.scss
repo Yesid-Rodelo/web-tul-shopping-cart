@@ -1,0 +1,32 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 380px;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.22);
+
+  h1 {
+    color: #454255;
+  }
+
+  .title,
+  .item {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .title {
+    border-bottom: 1px solid #b1babe;
+    p {
+      font-family: bold;
+      color: #b1babe;
+    }
+  }
+
+  .item {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
