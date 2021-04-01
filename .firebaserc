@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "web-angular-cart": {
+      "hosting": {
+        "shopping-cart": [
+          "web-angular-cart"
+        ]
+      }
+    }
+  }
+}
